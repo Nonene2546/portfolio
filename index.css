@@ -15,7 +15,6 @@ img {
 }
 
 a{
-    color: black;
     font-size: 2rem;
     padding-left: 20px;
     padding-top: 30px;
@@ -24,9 +23,14 @@ a{
     width: 100%;
 }
 
+a:hover{
+    color: blue;
+}
+
 .desc-container{
     padding-left: 20px;
     text-align: center;
+    width: 60%;
 }
 
 .desc{
@@ -50,5 +54,8 @@ a{
     .img{
         width: 100%;
         padding-top: 10px;
+    }
+    .desc-container{
+        width: 100%;
     }
 }
