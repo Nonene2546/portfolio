@@ -11,7 +11,7 @@ img {
 
 .img{
     width: 40%;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 a{
@@ -21,10 +21,34 @@ a{
     padding-top: 30px;
     text-decoration: none;
     text-align: center;
-    width: 60%;
+    width: 100%;
+}
+
+.desc-container{
+    padding-left: 20px;
+    text-align: center;
 }
 
 .desc{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-top: 20px;
+}
+
+@media (max-width:926px){
+    a{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:750px){
+    a{
+        font-size: 1.7rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        padding-top: 10px;
+    }
 }
